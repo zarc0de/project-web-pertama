@@ -1,0 +1,111 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5% 5%;
+  background-color: rgb(20, 23, 127);
+  
+}
+
+.logo {
+    color: rgb(236, 226, 226);
+    letter-spacing: .1rem;
+    
+}
+
+.logo:hover {
+    letter-spacing: .12rem;
+    transition: all ease .3s;
+    
+}
+
+.logo span {
+    color: rgb(43, 160, 177);
+    font-weight: 600;
+}
+
+.menu a{
+    color: rgb(236, 226, 226);
+    margin: 0 17px;
+    font-weight: 300;
+}
+
+.menu a:hover {
+    color:rgb(43, 160, 177) ;
+    border-bottom: 2px solid rgb(38, 215, 192);
+    transition: all ease-in-out .1s;
+}
+
+.linkedin {
+    color: rgb(236, 226, 226);
+    background-color: rgb(43, 160, 177);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+.linkedin:hover {
+    color: rgb(43, 160, 177);
+    background-color: rgb(61, 61, 168);
+    transition: all ease .4s;
+    transform: translateY(-8%);
+}
+
+.hero {
+    height: 100vh;
+    background-color: rgb(20, 23, 127);
+    display: flex;
+}
+
+.hero-img{
+    margin-left: 60px;
+}
+
+.hero-desc {
+    color: rgb(236, 226, 226);
+    margin-top: 90px;
+    margin-left: -115px;
+    margin-right: 200px;
+    align-items: center;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.hero-desc h2 {
+    margin-bottom: 20px;
+}
+
+.hero-desc h4 {
+    font-weight: 300;
+}
+
+.hero-desc span {
+    color: rgb(43, 160, 177);
+}
+
+.btn {
+    background-color: rgb(43, 160, 177);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    color: rgb(236, 226, 226);
+    margin-right: 20px;
+}
+
+.btn:hover {
+    color: rgb(43, 160, 177);
+    background-color: rgb(61, 61, 168);
+    transition: all ease .4s;
+    transform: translateY(-12%);
+}
